@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.container {
+  background-color: #150b3e;
+  background-size: auto;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #7c3aed;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-top: 30px;
+  color: #d4d2db;
+  font-size: 24px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+}
+
+.balance-label {
+  color: #d4d2db;
+  font-size: 28px;
+  font-weight: 800;
+  margin-right: 300px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdrawal-heading {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'roboto';
+  color: #c7d2fe;
+}
+
+.value {
+  color: #c7d2fe;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.rupees {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #c7d2fe;
+}
+
+.select-withdrawal-label {
+  font-size: 18px;
+  color: #c7d2fe;
+  font-weight: 800;
+}

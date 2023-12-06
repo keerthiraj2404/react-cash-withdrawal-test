@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.button {
+  width: 40%;
+  height: 40px;
+  background-color: #585076;
+  color: #ffffff;
+  font-size: 18px;
+  border: 2px solid #d4d2db;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
